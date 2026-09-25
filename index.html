@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anita Dinamita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabecera principal -->
+  <header class="hero">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="logo" href="#inicio">Anita</a>
+      <div class="nav-actions">
+        <a href="#contacto">Contacto</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          Modo oscuro
+        </button>
+      </div>
+    </nav>
+
+    <div id="inicio" class="hero-content">
+      <p class="eyebrow">2º ASIR · IES Francisco de Quevedo</p>
+      <h1>Anita</h1>
+      <p class="hero-phrase">Encontrar calma, disfrutar el camino y ser feliz.</p>
+      <img
+        class="hero-giraffe"
+        src="https://images.unsplash.com/photo-1547721064-da6cfb341d50?auto=format&fit=crop&w=900&q=85"
+        alt="Jirafa observando el paisaje"
+      >
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi" class="section">
+      <p class="section-label">01</p>
+      <div>
+        <h2>Sobre mí</h2>
+        <p>
+          Soy Anita, estudiante de 2º de ASIR en el IES Francisco de Quevedo.
+          Me gusta aprender, descubrir nuevas ideas y vivir cada etapa con calma.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección de experiencias -->
+    <section id="experiencia" class="section section-soft">
+      <p class="section-label">02</p>
+      <div>
+        <h2>Lo que he hecho</h2>
+        <p>
+          He hecho muchas cosas en la vida, y cada una me ha ayudado a conocerme,
+          aprender y seguir creciendo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección de gustos -->
+    <section id="gustos" class="section">
+      <p class="section-label">03</p>
+      <div>
+        <h2>Me gusta</h2>
+        <p>
+          Me encantan los animales y la naturaleza. Son espacios que me ayudan a
+          desconectar, respirar y disfrutar de las cosas sencillas. También me gusta jugar (mal) al ajedrez, leer y escuchar música.
+        </p>
+        <ul class="tags" aria-label="Intereses">
+          <li>Animales</li>
+          <li>Naturaleza</li>
+          <li>Calma</li>
+          <li>Felicidad</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer id="contacto" class="footer">
+    <p>Creado con calma por Anita.</p>
+    <a href="mailto:anita@email.com">anita@email.com</a>
+    <p>&copy; <span id="year"></span> Anita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
